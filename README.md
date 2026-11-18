@@ -1,7 +1,7 @@
 # Automated Job Postings Pipeline (v1) - dbt + DuckDB
 
-[![dbt build & publish](https://github.com/lukebarousse/dbt_Analytics_Engineering_Course/actions/workflows/dbt_build.yml/badge.svg)](https://github.com/Kaustubhsutar/dbt-duckdb-pipeline/blob/master/.github/workflows/dbt_build.yml)
-[![dbt Docs](https://img.shields.io/badge/dbt_docs-live-blue)](https://github.com/Kaustubhsutar/dbt-duckdb-pipeline)
+[![dbt build & publish](https://github.com/lukebarousse/dbt_Analytics_Engineering_Course/actions/workflows/dbt_build.yml/badge.svg)](https://github.com/Kaustubhsutar/dbt-duckdb-pipeline-v1/blob/master/.github/workflows/dbt_build.yml)
+[![dbt Docs](https://img.shields.io/badge/dbt_docs-live-blue)](https://kaustubhsutar.github.io/dbt-duckdb-pipeline-v1/)
 
 ![dbt pipeline diagram](img/dbt_pipeline.png)
 
