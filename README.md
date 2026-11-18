@@ -73,16 +73,13 @@ No clone required. [Install DuckDB](https://duckdb.org/docs/installation/) (`bre
 INSTALL httpfs;
 LOAD httpfs;
 
-ATTACH 'https://lukeb.co/dbt-warehouse' AS jobs;
+ATTACH 'https://github.com/Kaustubhsutar/dbt-duckdb-pipeline-v1/releases/download/warehouse/prod.duckdb' AS jobs;
 USE jobs;
 SHOW TABLES;
 
 SELECT * FROM top_locations;
 SELECT * FROM monthly_summary;
 ```
-
-> The short link is just a convenience — the database itself lives at the release asset URL, which works in `ATTACH` directly (use this form in your own README):
-> `https://github.com/Kaustubhsutar/dbt-duckdb-pipeline-v1/releases/download/warehouse/prod.duckdb`
 
 ---
 
